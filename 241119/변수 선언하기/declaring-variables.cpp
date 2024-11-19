@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
-    cout << "3\n" << 'C';
+    int a = 3;
+    char b = 'C';
+    cout << a << endl << b;
     return 0;
 }
