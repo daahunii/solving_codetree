@@ -13,7 +13,7 @@ bool IsPrime(int n) {
 int SumPrime(int n1, int n2){
     int sum = 0;
     for(int i=n1; i<=n2; i++){
-        if(IsPrime(i) == true) sum += i;
+        if(i != 1 && IsPrime(i) == true) sum += i;
     }
     return sum;
 }
