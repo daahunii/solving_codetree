@@ -17,7 +17,7 @@ int main() {
         sum += A[m-1];
         if (m == 1) break;
         if (m%2 == 0) m /= 2;
-        else m - 1;
+        else m -= 1;
     }
 
     cout << sum << endl;
