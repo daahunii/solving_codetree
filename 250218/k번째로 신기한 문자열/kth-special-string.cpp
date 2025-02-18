@@ -14,9 +14,8 @@ int main() {
     cin >> n >> k >> t;
     for (int i = 0; i < n; i++) {
         cin >> str[i];
-    }
-    for (int i = 0; i < n; i++) {
-        if(str[i].find(t) != string::npos) result.push_back(str[i]);
+        if(str[i].find(t) != string::npos) 
+            result.push_back(str[i]);
     }
     sort(result.begin(), result.end());
     cout << result[k-1];
